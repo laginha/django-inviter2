@@ -105,6 +105,12 @@ There are a couple of editable settings
     :type: str
     
     The name of the kwarg field to pass to the ``INVITER_FORM`` with the user object.
+    
+.. attribute:: INVITER_AUTOMATIC_LOGIN
+
+    :Default: ``False``
+    
+    Login the invitee automatically after register confirmation.
 
 .. attribute:: INVITER_REDIRECT
 
